@@ -1,0 +1,1043 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="pt-BR"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Dentora | Odontologia Integrada &amp; Estética Avançada</title>
+<!-- Google Fonts: Manrope & Inter -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols Outlined -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS with custom plugins -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "secondary": "#20686e",
+            "background": "#f4fbfb",
+            "inverse-surface": "#2b3233",
+            "surface-variant": "#dde4e5",
+            "surface-container-highest": "#dde4e5",
+            "on-error": "#ffffff",
+            "surface-container": "#e8eff0",
+            "on-tertiary-fixed": "#002022",
+            "surface-container-lowest": "#ffffff",
+            "on-primary-fixed-variant": "#254c53",
+            "on-tertiary-fixed-variant": "#004f54",
+            "primary-container": "#123c42",
+            "surface-dim": "#d4dbdc",
+            "on-tertiary": "#ffffff",
+            "primary": "#00262b",
+            "primary-fixed-dim": "#a5cdd5",
+            "surface-container-low": "#eef5f6",
+            "tertiary-fixed": "#88f3fc",
+            "on-secondary-fixed": "#002022",
+            "on-surface-variant": "#414849",
+            "secondary-fixed": "#abeef4",
+            "on-background": "#161d1e",
+            "primary-fixed": "#c1eaf1",
+            "surface": "#f4fbfb",
+            "on-secondary": "#ffffff",
+            "secondary-container": "#abeef4",
+            "on-secondary-fixed-variant": "#004f54",
+            "inverse-on-surface": "#ebf2f3",
+            "error-container": "#ffdad6",
+            "outline-variant": "#c0c8c9",
+            "on-primary": "#ffffff",
+            "secondary-fixed-dim": "#8fd2d8",
+            "inverse-primary": "#a5cdd5",
+            "surface-container-high": "#e3e9ea",
+            "on-primary-fixed": "#001f24",
+            "surface-tint": "#3e646b",
+            "on-secondary-container": "#286e74",
+            "outline": "#71787a",
+            "tertiary": "#002628",
+            "surface-bright": "#f4fbfb",
+            "on-tertiary-container": "#3baeb7",
+            "on-surface": "#161d1e",
+            "error": "#ba1a1a",
+            "on-error-container": "#93000a",
+            "on-primary-container": "#7fa6ad",
+            "tertiary-fixed-dim": "#6ad6df",
+            "tertiary-container": "#003d41"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+          "spacing": {
+            "space-lg": "1.5rem",
+            "space-xs": "0.25rem",
+            "gutter": "1.5rem",
+            "space-md": "1rem",
+            "space-xl": "2.5rem",
+            "space-sm": "0.5rem",
+            "margin-mobile": "1.25rem",
+            "margin": "3rem",
+            "gutter-mobile": "1rem"
+          },
+          "fontFamily": {
+            "headline-lg-mobile": ["Manrope"],
+            "label-sm": ["Manrope"],
+            "label-lg": ["Manrope"],
+            "body-lg": ["Inter"],
+            "title-md": ["Manrope"],
+            "body-md": ["Inter"],
+            "display-mobile": ["Manrope"],
+            "display": ["Manrope"],
+            "headline-md": ["Manrope"],
+            "headline-lg": ["Manrope"],
+            "headline-sm": ["Manrope"],
+            "body-sm": ["Inter"]
+          },
+          "fontSize": {
+            "headline-lg-mobile": ["30px", { "lineHeight": "36px", "letterSpacing": "-0.02em", "fontWeight": "600" }],
+            "label-sm": ["11px", { "lineHeight": "16px", "letterSpacing": "0.08em", "fontWeight": "700" }],
+            "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" }],
+            "body-lg": ["18px", { "lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "400" }],
+            "title-md": ["16px", { "lineHeight": "24px", "letterSpacing": "0", "fontWeight": "600" }],
+            "body-md": ["15px", { "lineHeight": "24px", "letterSpacing": "0", "fontWeight": "400" }],
+            "display-mobile": ["38px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "600" }],
+            "display": ["56px", { "lineHeight": "64px", "letterSpacing": "-0.03em", "fontWeight": "600" }],
+            "headline-md": ["28px", { "lineHeight": "36px", "letterSpacing": "-0.015em", "fontWeight": "500" }],
+            "headline-lg": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.025em", "fontWeight": "600" }],
+            "headline-sm": ["20px", { "lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+            "body-sm": ["13px", { "lineHeight": "20px", "letterSpacing": "0", "fontWeight": "400" }]
+          }
+        }
+      }
+    }
+  </script>
+<style>
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 350, 'GRAD' 0, 'opsz' 24;
+      display: inline-block;
+      vertical-align: middle;
+      line-height: 1;
+    }
+    .material-symbols-fill {
+      font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    }
+  </style>
+</head>
+<body class="bg-background text-on-surface antialiased selection:bg-secondary-fixed selection:text-primary">
+<!-- ========================================================================= -->
+<!-- 4.1 TOP NAVIGATION BAR (Shared Component Anchor)                          -->
+<!-- ========================================================================= -->
+<header class="fixed top-0 left-0 right-0 z-50 bg-surface/80 dark:bg-surface-container-lowest/80 backdrop-blur-md border-b border-surface-variant/40 dark:border-outline-variant/20 shadow-sm transition-all duration-300" id="top-nav">
+<div class="max-w-7xl mx-auto px-6 md:px-12 flex items-center justify-between h-20">
+<!-- Logo Brand -->
+<a class="flex items-center gap-2 group" href="#inicio">
+<span class="w-9 h-9 rounded-xl bg-primary-container text-surface-container-lowest flex items-center justify-center font-headline-sm text-headline-sm transition-transform duration-300 group-hover:scale-105 shadow-sm">
+<span class="material-symbols-outlined text-secondary-fixed" data-icon="dentistry">dentistry</span>
+</span>
+<span class="text-headline-sm font-headline-sm font-bold text-primary dark:text-primary-fixed tracking-tight">Dentora</span>
+</a>
+<!-- Navigation Links Desktop -->
+<nav class="hidden lg:flex items-center gap-8">
+<a class="text-label-lg font-label-lg text-secondary dark:text-secondary-fixed font-semibold hover:text-primary dark:hover:text-primary-fixed transition-colors duration-200" href="#inicio">Início</a>
+<a class="text-label-lg font-label-lg text-on-surface-variant dark:text-on-surface-variant font-medium hover:text-primary dark:hover:text-primary-fixed transition-colors duration-200" href="#tratamentos">Tratamentos</a>
+<a class="text-label-lg font-label-lg text-on-surface-variant dark:text-on-surface-variant font-medium hover:text-primary dark:hover:text-primary-fixed transition-colors duration-200" href="#sobre-nos">Sobre nós</a>
+<a class="text-label-lg font-label-lg text-on-surface-variant dark:text-on-surface-variant font-medium hover:text-primary dark:hover:text-primary-fixed transition-colors duration-200" href="#nossa-equipe">Nossa equipe</a>
+<a class="text-label-lg font-label-lg text-on-surface-variant dark:text-on-surface-variant font-medium hover:text-primary dark:hover:text-primary-fixed transition-colors duration-200" href="#depoimentos">Depoimentos</a>
+<a class="text-label-lg font-label-lg text-on-surface-variant dark:text-on-surface-variant font-medium hover:text-primary dark:hover:text-primary-fixed transition-colors duration-200" href="#contato">Contato</a>
+</nav>
+<!-- Trailing Primary Action CTA -->
+<div class="hidden sm:flex items-center gap-4">
+<a class="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-primary-container text-surface-container-lowest font-label-lg text-label-lg hover:bg-secondary transition-all duration-200 shadow-sm active:scale-95" href="#agendamento">
+<span>Agendar consulta</span>
+<span class="material-symbols-outlined text-sm" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</div>
+<!-- Mobile Menu Button -->
+<button aria-label="Abrir Menu" class="lg:hidden p-2 rounded-lg text-primary hover:bg-surface-variant/40" id="mobile-menu-toggle" type="button">
+<span class="material-symbols-outlined" data-icon="menu">menu</span>
+</button>
+</div>
+<!-- Mobile Dropdown Navigation -->
+<div class="hidden lg:hidden border-t border-surface-variant/40 bg-surface/95 backdrop-blur-md px-6 py-5 flex flex-col gap-4 shadow-lg" id="mobile-nav-panel">
+<a class="text-body-md font-body-md text-secondary font-semibold" href="#inicio">Início</a>
+<a class="text-body-md font-body-md text-on-surface-variant font-medium" href="#tratamentos">Tratamentos</a>
+<a class="text-body-md font-body-md text-on-surface-variant font-medium" href="#sobre-nos">Sobre nós</a>
+<a class="text-body-md font-body-md text-on-surface-variant font-medium" href="#nossa-equipe">Nossa equipe</a>
+<a class="text-body-md font-body-md text-on-surface-variant font-medium" href="#depoimentos">Depoimentos</a>
+<a class="text-body-md font-body-md text-on-surface-variant font-medium" href="#contato">Contato</a>
+<a class="mt-2 text-center w-full py-3 rounded-full bg-primary-container text-surface-container-lowest font-label-lg text-label-lg" href="#agendamento">Agendar consulta</a>
+</div>
+</header>
+<main>
+<!-- ========================================================================= -->
+<!-- 4.2 HERO SECTION CINEMATOGRÁFICA                                         -->
+<!-- ========================================================================= -->
+<section class="relative pt-24 pb-16 md:pt-28 md:pb-24 overflow-hidden min-h-[92vh] flex items-center" id="inicio">
+<!-- Container with Hero Image & Overlays -->
+<div class="max-w-7xl mx-auto px-6 md:px-12 w-full">
+<div class="relative rounded-3xl overflow-hidden shadow-2xl min-h-[640px] md:min-h-[720px] flex items-center">
+<!-- Exact Real Dental Photography Anchor -->
+<img alt="Atendimento clínico odontológico de precisão na Dentora" class="absolute inset-0 w-full h-full object-cover object-center transform scale-[1.01]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBfxV3AJ6zfD4_3Qjq9I6XmK1sZ8OYRMEbl0B6EmiI-XyprZarFyh3Ww3ePM4f0p6oV29YDHMjNSOFvirUB5tFSxy2HKxj4uTRFx1wi63I-n1ZgvxP7dZgTEjHp1152kv_VF5ZieE0kttpRPw40XcJMwyz0K3E9wYzKfHp6EaGtcYW4x1Qns6n5GzWVs4iSa-3r7oHElk3BQR6nIweMrb1FldvLYvbddu5mmH-mmB13IjVqBwQWjMTx6GiC9dx8-mx6mg"/>
+<!-- Studio-Grade Cinematic Gradients for Readability -->
+<div class="absolute inset-0 bg-gradient-to-r from-primary via-primary/80 to-transparent w-full md:w-3/4 pointer-events-none"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/90 via-transparent to-transparent md:hidden pointer-events-none"></div>
+<!-- Hero Content Layer -->
+<div class="relative z-10 max-w-2xl px-6 py-12 md:px-16 md:py-20 text-surface-container-lowest">
+<!-- Eyebrow Meta Tag -->
+<div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 mb-6">
+<span class="w-2 h-2 rounded-full bg-secondary-fixed animate-pulse"></span>
+<span class="text-label-sm font-label-sm text-secondary-fixed tracking-widest uppercase">Odontologia Integrada &amp; Estética</span>
+</div>
+<!-- Headline -->
+<h1 class="text-display-mobile md:text-display font-display font-bold tracking-tight text-surface-container-lowest leading-tight mb-6">
+              Seu sorriso merece um cuidado extraordinário.
+            </h1>
+<!-- Subtitle -->
+<p class="text-body-md md:text-body-lg font-body-lg text-inverse-on-surface/90 font-light leading-relaxed mb-8 max-w-xl">
+              Tecnologia moderna, atendimento humanizado e tratamentos personalizados para você sorrir com confiança e serenidade em cada detalhe.
+            </p>
+<!-- Actions -->
+<div class="flex flex-wrap items-center gap-4 mb-12">
+<a class="px-8 py-4 rounded-full bg-surface-container-lowest text-primary font-label-lg text-label-lg hover:bg-secondary-fixed transition-all duration-300 shadow-lg active:scale-95 flex items-center gap-2" href="#agendamento">
+<span>Agendar consulta</span>
+<span class="material-symbols-outlined text-primary text-base" data-icon="calendar_month">calendar_month</span>
+</a>
+<a class="px-8 py-4 rounded-full bg-white/15 backdrop-blur-md border border-white/30 text-surface-container-lowest font-label-lg text-label-lg hover:bg-white/25 transition-all duration-300 flex items-center gap-2" href="#tratamentos">
+<span>Conheça nossos tratamentos</span>
+<span class="material-symbols-outlined text-base" data-icon="north_east">north_east</span>
+</a>
+</div>
+<!-- Floating Pill Differentiators -->
+<div class="flex flex-wrap gap-2.5">
+<span class="px-3.5 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-body-sm font-body-sm text-surface-container-lowest flex items-center gap-1.5">
+<span class="material-symbols-outlined text-secondary-fixed text-sm" data-icon="view_in_ar">view_in_ar</span>
+                Tecnologia 3D Digital
+              </span>
+<span class="px-3.5 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-body-sm font-body-sm text-surface-container-lowest flex items-center gap-1.5">
+<span class="material-symbols-outlined text-secondary-fixed text-sm" data-icon="spa">spa</span>
+                Sedação Consciente &amp; Conforto
+              </span>
+<span class="px-3.5 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-body-sm font-body-sm text-surface-container-lowest flex items-center gap-1.5">
+<span class="material-symbols-outlined text-secondary-fixed text-sm" data-icon="sentiment_very_satisfied">sentiment_very_satisfied</span>
+                Atendimento Humanizado
+              </span>
+</div>
+</div>
+<!-- Bottom Right Floating Doctor Badge (Level 2 Elevation Glassmorphism) -->
+<div class="hidden lg:flex absolute bottom-8 right-8 z-10 bg-white/90 backdrop-blur-xl border border-white/60 p-4 rounded-2xl shadow-xl items-center gap-4 max-w-sm transition-transform duration-300 hover:-translate-y-1">
+<div class="relative w-14 h-14 rounded-xl overflow-hidden flex-shrink-0">
+<img class="w-full h-full object-cover" data-alt="Close-up professional portrait of a confident male head dentist wearing immaculate clinical scrubs, smiling with warm empathy in an ultramodern, high-end dental clinic with soft neutral daylight." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC89MDea6rAknx7yTLnh_3ZfVj1hSX79TL6yuNNeiPCzrtJ8nuSG-tCJYGqO-0UfQwN1aK6A09fMpHpdQ-o8S0M2XFoR89hMZSKsBQhbfEquirUwaHFGQCjSh81Q_ntPCV7qOF-dfLS_LShcB6ImCWcjhNn3iylrwcQaJdou6YWYMJMOeSJ37UCeGsI8RfY0ZntiZOykx27qZFAEasCm5l5E3IE6yut1Ye9AgxQtyKI-owfcM3xpxHT"/>
+</div>
+<div>
+<div class="flex items-center gap-1 text-secondary text-label-sm font-label-sm mb-0.5">
+<span class="material-symbols-outlined text-sm material-symbols-fill text-amber-500" data-icon="star" data-weight="fill">star</span>
+<span class="font-bold text-primary">4.9 / 5.0</span>
+<span class="text-outline text-[11px]">(+750 avaliações)</span>
+</div>
+<h4 class="text-title-md font-title-md text-primary leading-tight">Dr. Jonas Suherman</h4>
+<p class="text-body-sm font-body-sm text-outline">Responsável Técnico • CRO-SP 104.892</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================================================= -->
+<!-- 4.3 FAIXA DE ESPECIALIDADES (Services Strip)                              -->
+<!-- ========================================================================= -->
+<section class="border-y border-surface-variant bg-surface-container-lowest py-6">
+<div class="max-w-7xl mx-auto px-6 md:px-12">
+<div class="flex flex-wrap items-center justify-between gap-y-4 gap-x-8 text-on-surface-variant font-medium text-body-md">
+<div class="flex items-center gap-2 group cursor-pointer hover:text-secondary transition-colors">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span>Avaliação odontológica</span>
+</div>
+<div class="hidden sm:block text-outline-variant">•</div>
+<div class="flex items-center gap-2 group cursor-pointer hover:text-secondary transition-colors">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span>Limpeza dental &amp; Profilaxia</span>
+</div>
+<div class="hidden sm:block text-outline-variant">•</div>
+<div class="flex items-center gap-2 group cursor-pointer hover:text-secondary transition-colors">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span>Clareamento a Laser</span>
+</div>
+<div class="hidden sm:block text-outline-variant">•</div>
+<div class="flex items-center gap-2 group cursor-pointer hover:text-secondary transition-colors">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span>Restaurações Estéticas</span>
+</div>
+<div class="hidden sm:block text-outline-variant">•</div>
+<div class="flex items-center gap-2 group cursor-pointer hover:text-secondary transition-colors">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span>Implantes &amp; Próteses</span>
+</div>
+<div class="hidden sm:block text-outline-variant">•</div>
+<div class="flex items-center gap-2 group cursor-pointer hover:text-secondary transition-colors">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span>Ortodontia Invisível</span>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================================================= -->
+<!-- 4.4 APRESENTAÇÃO DA CLÍNICA (About)                                      -->
+<!-- ========================================================================= -->
+<section class="py-20 md:py-32 bg-surface" id="sobre-nos">
+<div class="max-w-7xl mx-auto px-6 md:px-12">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+<!-- Editorial Photo Composition -->
+<div class="lg:col-span-5 relative">
+<div class="relative rounded-3xl overflow-hidden shadow-xl aspect-[4/5] border border-surface-variant">
+<img class="w-full h-full object-cover transition-transform duration-700 hover:scale-105" data-alt="Serene aesthetic architectural interior of a contemporary dental clinic waiting lounge, featuring fluted oak panels, travertine stone tables, soft neutral lighting, and fresh architectural greenery evoking calmness." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA7vC0gBdljeHZR2BFXY4aCzZe7g3y_8GILmkiaVqtGIKT5NNUBOYQq-yJYYiRfhd06l5Qr7hnCp9M64yKZpm8y_l86b_UzctVyX-F5k6BM0tjCEqwcLbXTgbMv1cYjQLn7_vxvl-Qr3_3T1xWfTyxFWbadU3YbZAjdSRUtkrtI7voMjp-S-gqqdnJvelGMpIraj0hTRUrCTCffP7qMkmnHvXcpFqtWqbCGXsJgVTG7FaeWhrVlW9C2"/>
+</div>
+<!-- Inset Trust Anchor Overlay -->
+<div class="absolute -bottom-6 -right-4 sm:bottom-6 sm:-right-6 bg-surface-container-lowest p-6 rounded-2xl shadow-xl border border-surface-variant max-w-xs">
+<p class="text-display font-display font-bold text-primary leading-none mb-1">12+</p>
+<p class="text-label-sm font-label-sm text-outline uppercase tracking-wider">Anos de dedicação contínua à excelência odontológica</p>
+</div>
+</div>
+<!-- Narrative Editorial Content -->
+<div class="lg:col-span-7 lg:pl-6">
+<div class="inline-flex items-center gap-2 text-label-sm font-label-sm text-secondary tracking-widest uppercase mb-4">
+<span>Sobre a Dentora</span>
+<span>/</span>
+<span>Arquitetura de Cuidado</span>
+</div>
+<h2 class="text-headline-lg-mobile md:text-headline-lg font-headline-lg font-bold text-primary tracking-tight mb-6">
+              Cuidado que transforma a experiência de sorrir.
+            </h2>
+<p class="text-body-md md:text-body-lg font-body-lg text-on-surface-variant leading-relaxed mb-6">
+              Na Dentora, cada atendimento é pensado para oferecer uma experiência acolhedora, personalizada e alinhada às necessidades de cada paciente. Com atenção aos detalhes e recursos modernos, buscamos tornar o cuidado com a saúde bucal mais confortável e acessível.
+            </p>
+<p class="text-body-md font-body-md text-outline leading-relaxed mb-10">
+              Acreditamos que o ambiente de consultório deve inspirar serenidade. Por isso, eliminamos os desconfortos visuais e auditivos tradicionais através de instalações acusticamente tratadas, equipamentos de baixa vibração e protocolos sem dor.
+            </p>
+<!-- Metrics Row -->
+<div class="grid grid-cols-3 gap-6 pt-6 border-t border-surface-variant mb-10">
+<div>
+<span class="text-headline-lg-mobile md:text-headline-lg font-headline-lg font-bold text-primary">98%</span>
+<p class="text-label-sm font-label-sm text-outline uppercase tracking-wider mt-1">Índice de Satisfação</p>
+</div>
+<div>
+<span class="text-headline-lg-mobile md:text-headline-lg font-headline-lg font-bold text-primary">50k+</span>
+<p class="text-label-sm font-label-sm text-outline uppercase tracking-wider mt-1">Sorrisos Renovados</p>
+</div>
+<div>
+<span class="text-headline-lg-mobile md:text-headline-lg font-headline-lg font-bold text-primary">100%</span>
+<p class="text-label-sm font-label-sm text-outline uppercase tracking-wider mt-1">Digital &amp; Guiado</p>
+</div>
+</div>
+<a class="inline-flex items-center gap-3 text-label-lg font-label-lg text-primary hover:text-secondary group transition-colors" href="#agendamento">
+<span class="underline underline-offset-8 decoration-secondary-fixed">Conheça a Dentora e agende uma conversa</span>
+<span class="w-8 h-8 rounded-full bg-secondary-fixed text-primary flex items-center justify-center group-hover:translate-x-1 transition-transform">
+<span class="material-symbols-outlined text-sm" data-icon="arrow_forward">arrow_forward</span>
+</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================================================= -->
+<!-- 4.5 SEÇÃO DE TRATAMENTOS (Treatments Bento & Cards)                      -->
+<!-- ========================================================================= -->
+<section class="py-20 md:py-32 bg-surface-container-lowest" id="tratamentos">
+<div class="max-w-7xl mx-auto px-6 md:px-12">
+<!-- Header Section -->
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+<div>
+<div class="inline-flex items-center gap-2 text-label-sm font-label-sm text-secondary tracking-widest uppercase mb-3">
+<span>Nossos Serviços</span>
+<span>/</span>
+<span>Procedimentos Especializados</span>
+</div>
+<h2 class="text-headline-lg-mobile md:text-headline-lg font-headline-lg font-bold text-primary tracking-tight">
+              Encontre o tratamento ideal para o seu sorriso.
+            </h2>
+</div>
+<p class="text-body-md font-body-md text-on-surface-variant max-w-md">
+            Conheça nossas opções de cuidado odontológico combinando biologia tecidual, robótica e estética natural.
+          </p>
+</div>
+<!-- 6 Treatments Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- Treatment Card 1 -->
+<div class="group bg-surface rounded-3xl p-6 border border-surface-variant hover:border-secondary-fixed transition-all duration-300 hover:shadow-lg flex flex-col justify-between">
+<div>
+<div class="relative w-full aspect-[16/10] rounded-2xl overflow-hidden mb-6">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Macro close-up shot of hygienic modern dental prophylaxis scaling procedure, clean mirror reflection, sparkling gentle water spray, gentle clinical environment with bright lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAUStBJ0b4OM9T_AMXk5DLZ1-zR9807hzjFpWgVMElRaBRb2e32RLLa4uHMxZoqt9S8z1wVLnGi4B_s15s7WWZm4_Fo8rWz-XutOveYwEoNGcmNShlN-_EtOiQZSPB3dHO4KR0jYxe6SZ4jdfT2l1ou7mhIjmwDELbLdLanmZ8Du4HxSBFBoJ_KhIUFCGiDX8rof3nVMhulcnR9e9UxMGOv7qKWDmEKZ9nKA56pp4nNw4KW-dLQetFR"/>
+<span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur-md text-primary text-label-sm font-label-sm">
+                  Prevenção
+                </span>
+</div>
+<h3 class="text-headline-sm font-headline-sm text-primary mb-2">Limpeza e Prevenção</h3>
+<p class="text-body-md font-body-md text-on-surface-variant mb-6 leading-relaxed">
+                Remoção ultrassônica de biofilme e tártaro com jatos de bicarbonato ultrafino para polimento suave e manutenção contínua da saúde bucal.
+              </p>
+</div>
+<a class="inline-flex items-center justify-between w-full pt-4 border-t border-surface-variant text-label-lg font-label-lg text-primary group-hover:text-secondary" href="#agendamento">
+<span>Saiba mais</span>
+<span class="material-symbols-outlined text-lg group-hover:translate-x-1 transition-transform" data-icon="north_east">north_east</span>
+</a>
+</div>
+<!-- Treatment Card 2 -->
+<div class="group bg-surface rounded-3xl p-6 border border-surface-variant hover:border-secondary-fixed transition-all duration-300 hover:shadow-lg flex flex-col justify-between">
+<div>
+<div class="relative w-full aspect-[16/10] rounded-2xl overflow-hidden mb-6">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Close up photography of bright, white aesthetic smile with dental shade guide comparison in a modern aesthetic studio with pristine soft cool dental lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDcGMdlBSGc2_spmivXPM56A4E-4UAaNUuHPjtHqoRf-QmBmZEoLJzv0Znf4frDqbvjxvsalAIkELT5vb5Q9QeC3wL0UzhWr1tZ_5xZEKwheisW20Dn8bPycCdH9KfxXqBPwXrZ8d8eOs27HxpUYwL1zeW22Xe2-A88YbRsl7KekiG7ueKT6MrIarz8D6CbnbnHwxW1DFaPSXmiydyPbL0AAbq8HH14ysBf8siROUkrhVTc1i0SBRz9"/>
+<span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur-md text-primary text-label-sm font-label-sm">
+                  Estética
+                </span>
+</div>
+<h3 class="text-headline-sm font-headline-sm text-primary mb-2">Clareamento Dental Avançado</h3>
+<p class="text-body-md font-body-md text-on-surface-variant mb-6 leading-relaxed">
+                Protocolo combinado in-office a laser e moldeiras personalizadas para alcançar luminosidade sem sensibilidade dentinária indesejada.
+              </p>
+</div>
+<a class="inline-flex items-center justify-between w-full pt-4 border-t border-surface-variant text-label-lg font-label-lg text-primary group-hover:text-secondary" href="#agendamento">
+<span>Saiba mais</span>
+<span class="material-symbols-outlined text-lg group-hover:translate-x-1 transition-transform" data-icon="north_east">north_east</span>
+</a>
+</div>
+<!-- Treatment Card 3 -->
+<div class="group bg-surface rounded-3xl p-6 border border-surface-variant hover:border-secondary-fixed transition-all duration-300 hover:shadow-lg flex flex-col justify-between">
+<div>
+<div class="relative w-full aspect-[16/10] rounded-2xl overflow-hidden mb-6">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Dental artisan ceramist working with precision micro tools on delicate ceramic veneers under an optical microscope in a boutique dental laboratory." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDEStUtB5kGW8AZqZWx1js04i8rRDSZr6BlZ5ea1pLHTnC_VimB0YwbzispPPHaB9fMNZT_cfyPLlCsv9ysUq88r-ol3ep0zMz4FMyJxBSL-SmloQ4u9thTGhh8xRUwksAse4TjTkuQ0N7k3aYVZj_XOcd7krCEbQpfEe_srWgtp6HogWqIWBJrCUcIn5d3lD6ZoW7iFxjAHQM1t1UUL7rFklG9tq9IlvKna4zATdPAB6GZ9IjVFjhi"/>
+<span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur-md text-primary text-label-sm font-label-sm">
+                  Mimetismo
+                </span>
+</div>
+<h3 class="text-headline-sm font-headline-sm text-primary mb-2">Restaurações Estéticas</h3>
+<p class="text-body-md font-body-md text-on-surface-variant mb-6 leading-relaxed">
+                Facetas em resina nanoparticulada e lentes cerâmicas ultrafinas que reproduzem fielmente a textura e refração de dentes naturais.
+              </p>
+</div>
+<a class="inline-flex items-center justify-between w-full pt-4 border-t border-surface-variant text-label-lg font-label-lg text-primary group-hover:text-secondary" href="#agendamento">
+<span>Saiba mais</span>
+<span class="material-symbols-outlined text-lg group-hover:translate-x-1 transition-transform" data-icon="north_east">north_east</span>
+</a>
+</div>
+<!-- Treatment Card 4 -->
+<div class="group bg-surface rounded-3xl p-6 border border-surface-variant hover:border-secondary-fixed transition-all duration-300 hover:shadow-lg flex flex-col justify-between">
+<div>
+<div class="relative w-full aspect-[16/10] rounded-2xl overflow-hidden mb-6">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Digital 3D implantology surgical planning on high-resolution curved monitor screen showing jawbone tomography and guided dental implant trajectory." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAUpDCdoguJAgro63_Xo3rK6ah8y28M4ORgCv-iX3dEk--ZoGxwzG4wy2EOKgZa1wBJtGMGIZprQyo8dJhvJ86FYQCwjb9IYup5fAqS2BcKV_SjtwzYeyearn7n4tZ-8cflZM5ldvEq6S9n_60hzUkM2Eo1Y3n5fsLAD2jlYyRP3Y_pZ90Ryvm2QmSdtTX-JNqF7hszxeeYEijQs8CfEuCh2DvPZxfveS2Z7HOUzJBi9Pv1NqZ92-P6"/>
+<span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur-md text-primary text-label-sm font-label-sm">
+                  Reabilitação
+                </span>
+</div>
+<h3 class="text-headline-sm font-headline-sm text-primary mb-2">Implantes Dentários Guiados</h3>
+<p class="text-body-md font-body-md text-on-surface-variant mb-6 leading-relaxed">
+                Cirurgia virtual prévia com guia prototipada 3D para inserção milimétrica, cicatrização acelerada e sem cortes extensos de gengiva.
+              </p>
+</div>
+<a class="inline-flex items-center justify-between w-full pt-4 border-t border-surface-variant text-label-lg font-label-lg text-primary group-hover:text-secondary" href="#agendamento">
+<span>Saiba mais</span>
+<span class="material-symbols-outlined text-lg group-hover:translate-x-1 transition-transform" data-icon="north_east">north_east</span>
+</a>
+</div>
+<!-- Treatment Card 5 -->
+<div class="group bg-surface rounded-3xl p-6 border border-surface-variant hover:border-secondary-fixed transition-all duration-300 hover:shadow-lg flex flex-col justify-between">
+<div>
+<div class="relative w-full aspect-[16/10] rounded-2xl overflow-hidden mb-6">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Clear orthodontic transparent aligner resting on an elegant white textured marble surface next to a glass of water in soft bright interior daylight." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC4ORS-O5XaoJ6j_fB6qtIR-zRbsysk0D2vcMxw_z2UEEdmWhXFWYm9HO94YqZsCLgTOBSbx6ZepwJgako2OfPsZmo55s7jYUYTYZ53BiYy56vABGPY1lEIPMKWz9RjCKHKFgW9YbU5TX26O1xTeJ3xc9t64T8XPS0qW7pu7ym-PduorfQFs_MRffDOLum3JvXhmeHCSJ7qeVIEEfGVRhOs6-tQUAaTSZxqmHGSde92CpTV17vm71Pe"/>
+<span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur-md text-primary text-label-sm font-label-sm">
+                  Ortodontia
+                </span>
+</div>
+<h3 class="text-headline-sm font-headline-sm text-primary mb-2">Ortodontia com Alinhadores</h3>
+<p class="text-body-md font-body-md text-on-surface-variant mb-6 leading-relaxed">
+                Placas transparentes removíveis que corrigem o posicionamento dentário com previsibilidade, discrição total e facilidade na higienização diária.
+              </p>
+</div>
+<a class="inline-flex items-center justify-between w-full pt-4 border-t border-surface-variant text-label-lg font-label-lg text-primary group-hover:text-secondary" href="#agendamento">
+<span>Saiba mais</span>
+<span class="material-symbols-outlined text-lg group-hover:translate-x-1 transition-transform" data-icon="north_east">north_east</span>
+</a>
+</div>
+<!-- Treatment Card 6 -->
+<div class="group bg-surface rounded-3xl p-6 border border-surface-variant hover:border-secondary-fixed transition-all duration-300 hover:shadow-lg flex flex-col justify-between">
+<div>
+<div class="relative w-full aspect-[16/10] rounded-2xl overflow-hidden mb-6">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Detailed healthy pink gum line examination by dentist with delicate periodontic probe under studio lighting, showing precision dental care and patient hygiene." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA9-01SRXUVWz85-0qasVI4kdRPdyw8eybMdzGVRzI2l1I5e3EZiQyIckPILPPgF8QC7VwB2sFVdqlX6FMXwuixQPiMkzj04RdluhpM9nLFU9PA3ZHuQpGJYccG38gotkxL08tBg7fBRMUrNpxycBaIIAiQ9VOI4Mgo8NoRu0Vq_uWlJ4EtaKVLW6YoPV7tys4LwUr3Ft_GpqrId73VaIV3uJ9iJw88iwS1nAc19QbeUc3t_ob3RBax"/>
+<span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur-md text-primary text-label-sm font-label-sm">
+                  Saúde Gengival
+                </span>
+</div>
+<h3 class="text-headline-sm font-headline-sm text-primary mb-2">Periodontia e Saúde Gengival</h3>
+<p class="text-body-md font-body-md text-on-surface-variant mb-6 leading-relaxed">
+                Tratamento biológico de gengivite e periodontite, com plásticas gengivais para restabelecer a proporção áurea do sorriso com estabilidade.
+              </p>
+</div>
+<a class="inline-flex items-center justify-between w-full pt-4 border-t border-surface-variant text-label-lg font-label-lg text-primary group-hover:text-secondary" href="#agendamento">
+<span>Saiba mais</span>
+<span class="material-symbols-outlined text-lg group-hover:translate-x-1 transition-transform" data-icon="north_east">north_east</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================================================= -->
+<!-- 4.6 DIFERENCIAIS (Excellence in Every Detail)                             -->
+<!-- ========================================================================= -->
+<section class="py-20 md:py-32 bg-surface">
+<div class="max-w-7xl mx-auto px-6 md:px-12">
+<div class="text-center max-w-2xl mx-auto mb-16">
+<div class="inline-flex items-center gap-2 text-label-sm font-label-sm text-secondary tracking-widest uppercase mb-3">
+<span>Pilares Dentora</span>
+</div>
+<h2 class="text-headline-lg-mobile md:text-headline-lg font-headline-lg font-bold text-primary tracking-tight">
+            Excelência em cada detalhe.
+          </h2>
+<p class="text-body-md font-body-md text-on-surface-variant mt-4">
+            Projetamos toda a jornada clínica para eliminar o receio e transformar a ida ao dentista em um momento de autocuidado pleno.
+          </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Pilar 1 -->
+<div class="p-8 rounded-3xl bg-surface-container-lowest border border-surface-variant hover:border-secondary-fixed transition-all duration-300 hover:-translate-y-1">
+<div class="w-12 h-12 rounded-2xl bg-secondary-container/50 text-secondary flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-2xl" data-icon="person_celebrate">person_celebrate</span>
+</div>
+<h3 class="text-title-md font-title-md text-primary mb-3">Atendimento Personalizado</h3>
+<p class="text-body-sm font-body-sm text-on-surface-variant leading-relaxed">
+              Consultas com tempo estendido e sem pressa. Ouvimos seus desejos e histórico antes de propor qualquer intervenção.
+            </p>
+</div>
+<!-- Pilar 2 -->
+<div class="p-8 rounded-3xl bg-surface-container-lowest border border-surface-variant hover:border-secondary-fixed transition-all duration-300 hover:-translate-y-1">
+<div class="w-12 h-12 rounded-2xl bg-secondary-container/50 text-secondary flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-2xl" data-icon="architecture">architecture</span>
+</div>
+<h3 class="text-title-md font-title-md text-primary mb-3">Planejamento Digital Individualizado</h3>
+<p class="text-body-sm font-body-sm text-on-surface-variant leading-relaxed">
+              Scanners intraorais 3D que eliminam moldagens desconfortáveis e simulam o resultado final antes do início do tratamento.
+            </p>
+</div>
+<!-- Pilar 3 -->
+<div class="p-8 rounded-3xl bg-surface-container-lowest border border-surface-variant hover:border-secondary-fixed transition-all duration-300 hover:-translate-y-1">
+<div class="w-12 h-12 rounded-2xl bg-secondary-container/50 text-secondary flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-2xl" data-icon="volume_off">volume_off</span>
+</div>
+<h3 class="text-title-md font-title-md text-primary mb-3">Ambiente Acolhedor e Silencioso</h3>
+<p class="text-body-sm font-body-sm text-on-surface-variant leading-relaxed">
+              Aromaterapia clínica relaxante, isolamento acústico e fones com cancelamento de ruído durante todo o procedimento.
+            </p>
+</div>
+<!-- Pilar 4 -->
+<div class="p-8 rounded-3xl bg-surface-container-lowest border border-surface-variant hover:border-secondary-fixed transition-all duration-300 hover:-translate-y-1">
+<div class="w-12 h-12 rounded-2xl bg-secondary-container/50 text-secondary flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-2xl" data-icon="biotech">biotech</span>
+</div>
+<h3 class="text-title-md font-title-md text-primary mb-3">Diagnóstico de Alta Precisão</h3>
+<p class="text-body-sm font-body-sm text-on-surface-variant leading-relaxed">
+              Microscopia óptica operatória e tomografia computadorizada para identificar fissuras e lesões em estágios microscópicos.
+            </p>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================================================= -->
+<!-- 4.7 EQUIPE CLÍNICA (Team)                                                -->
+<!-- ========================================================================= -->
+<section class="py-20 md:py-32 bg-surface-container-lowest" id="nossa-equipe">
+<div class="max-w-7xl mx-auto px-6 md:px-12">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+<div>
+<div class="inline-flex items-center gap-2 text-label-sm font-label-sm text-secondary tracking-widest uppercase mb-3">
+<span>Corpo Clínico</span>
+<span>/</span>
+<span>Especialistas Dedicados</span>
+</div>
+<h2 class="text-headline-lg-mobile md:text-headline-lg font-headline-lg font-bold text-primary tracking-tight">
+              Conheça quem cuida do seu sorriso.
+            </h2>
+</div>
+<p class="text-body-md font-body-md text-on-surface-variant max-w-md">
+            Mestres e doutores com constante atualização nos centros mundiais de odontologia estética e reconstrutiva.
+          </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Dentista 1 -->
+<div class="group">
+<div class="relative aspect-[3/4] rounded-3xl overflow-hidden mb-5 bg-surface-container border border-surface-variant">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Editorial portrait of Dr. Jonas Suherman, experienced male cosmetic dental specialist wearing deep teal scrub uniform against a serene soft light clinical background, approachable and professional smile." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDMP5zQ8SK5Do7oXYfOkC7Nk7IGmsxgNsJKNAjhyXTxqhuvh6AU4g_oeSA9FpUK6n46J3k9s9cCM2PAE9WeSbki4C0RYgvJET3W19xnBMYg2NLlGXTyBbKW8iPLB-SfascHEjWFCq5EGfDRtHqZUvI1Zc3Y5lfTliJv_QG4t_RM6Rye0XVh7EqksveXS4SMYswt2NweaPR-jWrQz5nwUOQx4HlPZcCLCdpW4dZa0VufoaUxezWPI9Db"/>
+<div class="absolute bottom-4 left-4 right-4 bg-white/90 backdrop-blur-md p-3.5 rounded-2xl border border-white/40 flex items-center justify-between">
+<div>
+<span class="text-label-sm font-label-sm text-secondary uppercase font-semibold">Diretor Clínico</span>
+<p class="text-title-md font-title-md text-primary">Dr. Jonas Suherman</p>
+</div>
+<span class="text-label-sm font-label-sm px-2.5 py-1 rounded-full bg-secondary-fixed text-primary font-bold">CRO 104.892</span>
+</div>
+</div>
+<p class="text-body-sm font-body-sm text-outline">Especialista em Implantodontia Guiada e Reabilitação Oral de Alta Complexidade pela USP.</p>
+</div>
+<!-- Dentista 2 -->
+<div class="group">
+<div class="relative aspect-[3/4] rounded-3xl overflow-hidden mb-5 bg-surface-container border border-surface-variant">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Warm studio portrait of female dentist Dr. Albertina Flores, aesthetic smile design expert wearing white clinical coat with relaxed confident posture in a modern dental office." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCA2fpNoOtofNBQswkVUPADFf4OiZvVIfbfnRPGC-ezZi4A9ZcSSXMTgNZcwWGlyMr1J4dkORTHhvCgmf4Xhv9YWNk1_LjqAZ__CM5iiEv2GHPt9OR5Rvx9s95Aj6bc1ba67fKvQ0mbIylYov-3Hr3oceYWgqcp3HPC3wCf1_WxlfJ3BIKPSu9rfmV2s67SaNoF5Qu8UQSkmfjWiHy586gZjqSrvLBUuKsdL9FxaMQIpipCfoZ0qtla"/>
+<div class="absolute bottom-4 left-4 right-4 bg-white/90 backdrop-blur-md p-3.5 rounded-2xl border border-white/40 flex items-center justify-between">
+<div>
+<span class="text-label-sm font-label-sm text-secondary uppercase font-semibold">Odontologia Estética</span>
+<p class="text-title-md font-title-md text-primary">Dra. Albertina Flores</p>
+</div>
+<span class="text-label-sm font-label-sm px-2.5 py-1 rounded-full bg-secondary-fixed text-primary font-bold">CRO 118.234</span>
+</div>
+</div>
+<p class="text-body-sm font-body-sm text-outline">Mestre em Dentística Restauradora com foco em facetas em resina e cerâmica de estratificação mimetizada.</p>
+</div>
+<!-- Dentista 3 -->
+<div class="group">
+<div class="relative aspect-[3/4] rounded-3xl overflow-hidden mb-5 bg-surface-container border border-surface-variant">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Modern professional portrait of female orthodontist Dr. Theresa Webb, smiling kindly with a dental aligner model in hands inside an architectural dental office." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBVApTZYfl6jEnelszT0u20IZvcYi0RnHnAugulUsjk5gbwgDrHC3ZyrNoZO8Wn6hnXp3AeiNZNDJB-lFfePj4hu0vbSPw-tI1MZze4hMShsMEIYxspgTwDOGzhaQtSIqZCIoDuESMXB2O3PcqWzVAtOZlsc079Fc8hZuRJJEPfsfiIsmVduJjfodQyU9qXpMDIu5dCMp-ev6crC2FnpF6JNf6oePkEk0n96bqKKJZuUQlPoXjDNL3u"/>
+<div class="absolute bottom-4 left-4 right-4 bg-white/90 backdrop-blur-md p-3.5 rounded-2xl border border-white/40 flex items-center justify-between">
+<div>
+<span class="text-label-sm font-label-sm text-secondary uppercase font-semibold">Ortodontia Digital</span>
+<p class="text-title-md font-title-md text-primary">Dra. Theresa Webb</p>
+</div>
+<span class="text-label-sm font-label-sm px-2.5 py-1 rounded-full bg-secondary-fixed text-primary font-bold">CRO 98.741</span>
+</div>
+</div>
+<p class="text-body-sm font-body-sm text-outline">Especialista certificada em Ortodontia com Alinhadores Invisíveis e harmonização oclusal funcional.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================================================= -->
+<!-- 4.8 PROCESSO DE ATENDIMENTO EM 4 ETAPAS                                  -->
+<!-- ========================================================================= -->
+<section class="py-20 md:py-32 bg-surface">
+<div class="max-w-7xl mx-auto px-6 md:px-12">
+<div class="text-center max-w-2xl mx-auto mb-16">
+<div class="inline-flex items-center gap-2 text-label-sm font-label-sm text-secondary tracking-widest uppercase mb-3">
+<span>Passo a Passo Transparente</span>
+</div>
+<h2 class="text-headline-lg-mobile md:text-headline-lg font-headline-lg font-bold text-primary tracking-tight">
+            Seu atendimento, em etapas simples.
+          </h2>
+<p class="text-body-md font-body-md text-on-surface-variant mt-3">
+            Sem termos inacessíveis ou surpresas no plano financeiro. Do primeiro contato à conclusão.
+          </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 relative">
+<!-- Step 1 -->
+<div class="relative bg-surface-container-lowest p-8 rounded-3xl border border-surface-variant flex flex-col justify-between">
+<span class="text-display font-display font-bold text-surface-variant">01</span>
+<div>
+<h3 class="text-title-md font-title-md text-primary mb-2 mt-4">Entre em contato</h3>
+<p class="text-body-sm font-body-sm text-on-surface-variant leading-relaxed">
+                Envie uma mensagem direta via WhatsApp ou telefone. Nossa equipe acolhe seu caso e esclarece dúvidas preliminares.
+              </p>
+</div>
+</div>
+<!-- Step 2 -->
+<div class="relative bg-surface-container-lowest p-8 rounded-3xl border border-surface-variant flex flex-col justify-between">
+<span class="text-display font-display font-bold text-surface-variant">02</span>
+<div>
+<h3 class="text-title-md font-title-md text-primary mb-2 mt-4">Agende sua avaliação</h3>
+<p class="text-body-sm font-body-sm text-on-surface-variant leading-relaxed">
+                Escolha o horário mais oportuno. Em consultório, realizamos fotografia odontológica e escaneamento 3D sem incômodos.
+              </p>
+</div>
+</div>
+<!-- Step 3 -->
+<div class="relative bg-surface-container-lowest p-8 rounded-3xl border border-surface-variant flex flex-col justify-between">
+<span class="text-display font-display font-bold text-surface-variant">03</span>
+<div>
+<h3 class="text-title-md font-title-md text-primary mb-2 mt-4">Conheça seu plano</h3>
+<p class="text-body-sm font-body-sm text-on-surface-variant leading-relaxed">
+                Apresentamos o mapa digital do tratamento, prazos claros e opções acessíveis com total liberdade de decisão.
+              </p>
+</div>
+</div>
+<!-- Step 4 -->
+<div class="relative bg-surface-container-lowest p-8 rounded-3xl border border-surface-variant flex flex-col justify-between">
+<span class="text-display font-display font-bold text-surface-variant">04</span>
+<div>
+<h3 class="text-title-md font-title-md text-primary mb-2 mt-4">Inicie o acompanhamento</h3>
+<p class="text-body-sm font-body-sm text-on-surface-variant leading-relaxed">
+                Procedimentos pontuais, suporte constante pós-consulta e retornos preventivos para preservar seu sorriso para a vida toda.
+              </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================================================= -->
+<!-- 4.9 DEPOIMENTOS (Testimonials)                                           -->
+<!-- ========================================================================= -->
+<section class="py-20 md:py-32 bg-surface-container-lowest" id="depoimentos">
+<div class="max-w-7xl mx-auto px-6 md:px-12">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+<div>
+<div class="inline-flex items-center gap-2 text-label-sm font-label-sm text-secondary tracking-widest uppercase mb-3">
+<span>Vozes de Quem Confia</span>
+</div>
+<h2 class="text-headline-lg-mobile md:text-headline-lg font-headline-lg font-bold text-primary tracking-tight">
+              A experiência de quem confia na Dentora.
+            </h2>
+</div>
+<!-- Avatar Stack Indicator -->
+<div class="flex items-center gap-4 bg-surface p-3 px-5 rounded-2xl border border-surface-variant">
+<div class="flex -space-x-3">
+<div class="w-9 h-9 rounded-full ring-2 ring-surface overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Portrait photo of smiling female patient with bright teeth against a clean neutral background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuASyLsDbplGDcmDcF6mKNmFJxT5basngTZ4PHYh22-cotGh7ZQNibcjYkmoBd_yk-ztBHv7HrQYC18Fft8rSh1wlb6SMVEpRnyS4QyfMm2Lb9PyLX78OOSKWFeW8RH2vMjllSC_xazaUNaIpoZlIPUOhXf8z29hvMcWMfs1Z5PRIm6Iayxdvdkg3GVexqfI70WqSno1NFdgg4SQPD-k7Q94VI_UrshSxn00uw_aPk__5D_r-rY2htPQ"/>
+</div>
+<div class="w-9 h-9 rounded-full ring-2 ring-surface overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Portrait photo of satisfied male patient smiling warmly with well aligned teeth in soft natural daylight." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCiVMkWKexWKHkE3WEA9L0dgfq1p1BTEn3hXdr3kxMXdVh3-1NsbyS6ju4PyBfCZt_3pnuHF6md6mu-pIVir8JzmoTWx52jiCfO_Z4gyQkz0KtHOOOeoIP_BC2KJPMMe_1V9wYVULOLS5nv8wPPFtMFwOFRE9fvnwW552aFbgALOjaq8eSWFEe8XospxWr4R_GciXzcqq615cpQXvsueNDQ4MR94BeeOGl_JTEVthhqJU2LByXvZzOo"/>
+</div>
+<div class="w-9 h-9 rounded-full ring-2 ring-surface overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Portrait of an older mature patient with genuine smiling relief and healthy radiant smile." src="https://lh3.googleusercontent.com/aida-public/AB6AXuABaMMXnu3paJ8UanbNICJ8v1c0_fJcLT6S-V8hlpIw6AIyX55BGePv1FDo8F8PgooimUYetkDmZQZpebl_s1Hp-abUmseaRVtABTBsTGcl_XpLDUzJtmfwKVmYoFP95TOrSIZVDubSn_D8Goixd121t5PSvC13VlTyX6V6l1t2nFavqDqZG_KjVDmuU2N_T3XouHHglwLYZcm3lo4FqLkV3ciGR7R5ZGqng_F9j79yqy-VSsyEigp1"/>
+</div>
+</div>
+<div>
+<p class="text-label-lg font-label-lg text-primary font-bold">750+ Pacientes</p>
+<p class="text-label-sm font-label-sm text-outline">Avaliação média 4.9/5 no Google</p>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Testimonial 1 -->
+<div class="p-8 rounded-3xl bg-surface border border-surface-variant flex flex-col justify-between">
+<div>
+<div class="flex gap-1 text-amber-500 mb-6">
+<span class="material-symbols-outlined text-lg material-symbols-fill" data-icon="star" data-weight="fill">star</span>
+<span class="material-symbols-outlined text-lg material-symbols-fill" data-icon="star" data-weight="fill">star</span>
+<span class="material-symbols-outlined text-lg material-symbols-fill" data-icon="star" data-weight="fill">star</span>
+<span class="material-symbols-outlined text-lg material-symbols-fill" data-icon="star" data-weight="fill">star</span>
+<span class="material-symbols-outlined text-lg material-symbols-fill" data-icon="star" data-weight="fill">star</span>
+</div>
+<p class="text-body-md font-body-md text-on-surface-variant leading-relaxed italic mb-6">
+                "Eu tinha pânico genuíno de cadeira odontológica devido a traumas na infância. Na Dentora, o protocolo com sedação e o respeito ao meu tempo mudaram tudo. Não senti absolutamente dor alguma no meu implante."
+              </p>
+</div>
+<div class="flex items-center gap-3 pt-4 border-t border-surface-variant">
+<div class="w-10 h-10 rounded-full bg-secondary-fixed text-primary flex items-center justify-center font-bold text-label-lg">
+                MC
+              </div>
+<div>
+<p class="text-title-md font-title-md text-primary">Mariana Castello</p>
+<p class="text-body-sm font-body-sm text-outline">Paciente de Implante Guiado</p>
+</div>
+</div>
+</div>
+<!-- Testimonial 2 -->
+<div class="p-8 rounded-3xl bg-surface border border-surface-variant flex flex-col justify-between">
+<div>
+<div class="flex gap-1 text-amber-500 mb-6">
+<span class="material-symbols-outlined text-lg material-symbols-fill" data-icon="star" data-weight="fill">star</span>
+<span class="material-symbols-outlined text-lg material-symbols-fill" data-icon="star" data-weight="fill">star</span>
+<span class="material-symbols-outlined text-lg material-symbols-fill" data-icon="star" data-weight="fill">star</span>
+<span class="material-symbols-outlined text-lg material-symbols-fill" data-icon="star" data-weight="fill">star</span>
+<span class="material-symbols-outlined text-lg material-symbols-fill" data-icon="star" data-weight="fill">star</span>
+</div>
+<p class="text-body-md font-body-md text-on-surface-variant leading-relaxed italic mb-6">
+                "O clareamento a laser e as lentes de resina ficaram incrivelmente naturais. Ninguém percebe que fiz um procedimento, apenas comentam que meu sorriso parece descansado e luminoso. Pontualidade impecável."
+              </p>
+</div>
+<div class="flex items-center gap-3 pt-4 border-t border-surface-variant">
+<div class="w-10 h-10 rounded-full bg-secondary-fixed text-primary flex items-center justify-center font-bold text-label-lg">
+                RF
+              </div>
+<div>
+<p class="text-title-md font-title-md text-primary">Rodrigo F. Albuquerque</p>
+<p class="text-body-sm font-body-sm text-outline">Paciente de Estética Dental</p>
+</div>
+</div>
+</div>
+<!-- Testimonial 3 -->
+<div class="p-8 rounded-3xl bg-surface border border-surface-variant flex flex-col justify-between">
+<div>
+<div class="flex gap-1 text-amber-500 mb-6">
+<span class="material-symbols-outlined text-lg material-symbols-fill" data-icon="star" data-weight="fill">star</span>
+<span class="material-symbols-outlined text-lg material-symbols-fill" data-icon="star" data-weight="fill">star</span>
+<span class="material-symbols-outlined text-lg material-symbols-fill" data-icon="star" data-weight="fill">star</span>
+<span class="material-symbols-outlined text-lg material-symbols-fill" data-icon="star" data-weight="fill">star</span>
+<span class="material-symbols-outlined text-lg material-symbols-fill" data-icon="star" data-weight="fill">star</span>
+</div>
+<p class="text-body-md font-body-md text-on-surface-variant leading-relaxed italic mb-6">
+                "Uso dos alinhadores invisíveis com a Dra. Theresa foi o tratamento mais tranquilo que já fiz. Ela me mostrou no scanner 3D como ficaria exatamente cada mês. Sem feridas na boca e com resultado antes do prazo."
+              </p>
+</div>
+<div class="flex items-center gap-3 pt-4 border-t border-surface-variant">
+<div class="w-10 h-10 rounded-full bg-secondary-fixed text-primary flex items-center justify-center font-bold text-label-lg">
+                LN
+              </div>
+<div>
+<p class="text-title-md font-title-md text-primary">Larissa Nogueira</p>
+<p class="text-body-sm font-body-sm text-outline">Paciente de Ortodontia Invisível</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================================================= -->
+<!-- 4.10 CHAMADA PARA AGENDAMENTO (Booking CTA)                               -->
+<!-- ========================================================================= -->
+<section class="py-16 md:py-24 bg-surface" id="agendamento">
+<div class="max-w-7xl mx-auto px-6 md:px-12">
+<div class="relative bg-primary-container text-surface-container-lowest rounded-3xl p-10 md:p-16 lg:p-20 overflow-hidden shadow-2xl">
+<!-- Subtle Atmospheric Background Patterns -->
+<div class="absolute -right-20 -bottom-20 w-96 h-96 rounded-full bg-secondary/30 blur-3xl pointer-events-none"></div>
+<div class="absolute top-0 right-1/4 w-64 h-64 rounded-full bg-secondary-fixed/10 blur-2xl pointer-events-none"></div>
+<div class="relative z-10 max-w-2xl">
+<span class="px-4 py-1.5 rounded-full bg-white/10 backdrop-blur-md text-secondary-fixed text-label-sm font-label-sm uppercase tracking-widest inline-block mb-6">
+              Agendamento Simples &amp; Rápido
+            </span>
+<h2 class="text-display-mobile md:text-display font-display font-bold leading-tight mb-6">
+              Vamos cuidar do seu sorriso?
+            </h2>
+<p class="text-body-md md:text-body-lg font-body-lg text-inverse-on-surface/90 font-light leading-relaxed mb-10">
+              Entre em contato com a nossa equipe e descubra o melhor caminho para o seu cuidado odontológico. Estamos prontos para receber você em nosso espaço.
+            </p>
+<div class="flex flex-wrap items-center gap-4">
+<!-- Direct WhatsApp / Phone Action -->
+<a class="px-8 py-4 rounded-full bg-secondary-fixed text-primary font-label-lg text-label-lg hover:bg-surface-container-lowest transition-all duration-300 shadow-md active:scale-95 flex items-center gap-3" href="https://wa.me/5511999999999" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-lg" data-icon="chat">chat</span>
+<span>Agendar consulta via WhatsApp</span>
+</a>
+<a class="px-8 py-4 rounded-full bg-white/15 backdrop-blur-md border border-white/20 text-surface-container-lowest font-label-lg text-label-lg hover:bg-white/25 transition-all duration-300 flex items-center gap-2" href="tel:+551130000000">
+<span class="material-symbols-outlined text-lg" data-icon="call">call</span>
+<span>(11) 3456-7890</span>
+</a>
+</div>
+<!-- Operating Hours Micro Copy -->
+<div class="flex items-center gap-3 text-body-sm font-body-sm text-surface-variant/80 mt-8">
+<span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+<span>Atendimento de Segunda a Sexta: 08h às 20h | Sábados: 08h às 14h</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================================================= -->
+<!-- 4.11 BLOG & CONTEÚDOS EDUCATIVOS                                         -->
+<!-- ========================================================================= -->
+<section class="py-20 md:py-32 bg-surface-container-lowest">
+<div class="max-w-7xl mx-auto px-6 md:px-12">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+<div>
+<div class="inline-flex items-center gap-2 text-label-sm font-label-sm text-secondary tracking-widest uppercase mb-3">
+<span>Educação &amp; Saúde Bucal</span>
+</div>
+<h2 class="text-headline-lg-mobile md:text-headline-lg font-headline-lg font-bold text-primary tracking-tight">
+              Artigos e orientações clínicas.
+            </h2>
+</div>
+<p class="text-body-md font-body-md text-on-surface-variant max-w-md">
+            Informação fundamentada pela literatura científica para você proteger sua saúde bucal diariamente.
+          </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Article 1 -->
+<article class="group bg-surface rounded-3xl p-6 border border-surface-variant hover:border-secondary-fixed transition-all duration-300">
+<div class="relative w-full aspect-[16/10] rounded-2xl overflow-hidden mb-5">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Modern organic toothbrush with charcoal bristles and natural mineral dental paste placed next to pure white ceramic cup in a clean serene bathroom." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAAyqZxrZLiOjzfZyoVgkL9zbEy9o_BPWPO-PkYEk5P7wtful_wVfQrG5FQFlCWYnxzGXVPs804ATE9LAL5pe9l2S_aH2Vq0EDK7--98B9e7uSnpaHmRvtSDAdXVE1WFGjufsCfSjxxP60ByXnQ7WnoVCrtLie7cOCmDpDvtifKWWahgzGlt4ea7vg_EtAfcQtrHcWFBfLiOLOYaS_m4QA1b1KqAQR5I9GMA2ZgOGtaj4EWEVtIGyUj"/>
+<span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur-md text-primary text-label-sm font-label-sm">
+                Prevenção • 4 min de leitura
+              </span>
+</div>
+<h3 class="text-title-md font-title-md text-primary mb-2 group-hover:text-secondary transition-colors">
+              Fio dental antes ou depois da escovação? O que a ciência recomenda
+            </h3>
+<p class="text-body-sm font-body-sm text-on-surface-variant mb-4 leading-relaxed">
+              Entenda como a ordem correta dos instrumentos de higiene potencializa a remineralização do esmalte dentário com flúor ativo.
+            </p>
+<span class="text-label-sm font-label-sm text-secondary font-bold inline-flex items-center gap-1">
+              Ler artigo completo <span class="material-symbols-outlined text-xs" data-icon="arrow_forward">arrow_forward</span>
+</span>
+</article>
+<!-- Article 2 -->
+<article class="group bg-surface rounded-3xl p-6 border border-surface-variant hover:border-secondary-fixed transition-all duration-300">
+<div class="relative w-full aspect-[16/10] rounded-2xl overflow-hidden mb-5">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Laboratory chemistry glass flask with whitening active serum gel next to dental shade enamel guides under pure studio light." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDbzQO70c8tczWM7eWhqLTyPk4cOiFCgjUMPec8yoa0CJkyJfeVPp1ii3KUZvE9dA6jSm8ahjWqzXYFZFy2eksYX5LAOOW7OmehGjmkLMeU3lhL8cCOJGVBHbRTJHsQMF4z2ly00DIU3tA3zf6Eowou0Ru3DdRsnGAIUiKLz5ZKpaXj4_7jkm9ag2mtMlNI3cR08Aq9xb5h7mhAZrAfH3nZwsiR7zxoHiKtncU9zZCHSfUhhjdSQhwH"/>
+<span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur-md text-primary text-label-sm font-label-sm">
+                Estética • 6 min de leitura
+              </span>
+</div>
+<h3 class="text-title-md font-title-md text-primary mb-2 group-hover:text-secondary transition-colors">
+              Mitos e verdades sobre o clareamento: enfraquece ou desgasta o dente?
+            </h3>
+<p class="text-body-sm font-body-sm text-on-surface-variant mb-4 leading-relaxed">
+              Desmistificamos o processo de oxidação dos pigmentos dentinários e como as formulações modernas blindam contra a dor.
+            </p>
+<span class="text-label-sm font-label-sm text-secondary font-bold inline-flex items-center gap-1">
+              Ler artigo completo <span class="material-symbols-outlined text-xs" data-icon="arrow_forward">arrow_forward</span>
+</span>
+</article>
+<!-- Article 3 -->
+<article class="group bg-surface rounded-3xl p-6 border border-surface-variant hover:border-secondary-fixed transition-all duration-300">
+<div class="relative w-full aspect-[16/10] rounded-2xl overflow-hidden mb-5">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Woman holding invisible custom clear dental aligner inspecting its transparency against morning natural sunlight with a relaxed smile." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCJGcTHOqbLZRFJm7MzHsTaJFp97UbQ2Hr4K6RPbXHBt5TUkhRtakVGcPwPOiMlaOrd2TDrBds2vQ_YcqP9fpzBI8OFpZkzI5wIBZQhWJnxr8-XmyOz_6ysoY7YQebvOiTnjNVGF8tx-PAu1oNu1swHExTXuz0wjirqbPgdPPqD4LoA3h0GMcYkpJrsmlgBTMfVSplsEUhviFmPoLXhkdV7klg7mWqZvMzLb8hqVxMiKHHL5yFX-xlR"/>
+<span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur-md text-primary text-label-sm font-label-sm">
+                Ortodontia • 5 min de leitura
+              </span>
+</div>
+<h3 class="text-title-md font-title-md text-primary mb-2 group-hover:text-secondary transition-colors">
+              Alinhadores invisíveis funcionam para qualquer caso?
+            </h3>
+<p class="text-body-sm font-body-sm text-on-surface-variant mb-4 leading-relaxed">
+              Descubra os limites biomecânicos e os avanços que tornaram os alinhadores a primeira escolha para correções na fase adulta.
+            </p>
+<span class="text-label-sm font-label-sm text-secondary font-bold inline-flex items-center gap-1">
+              Ler artigo completo <span class="material-symbols-outlined text-xs" data-icon="arrow_forward">arrow_forward</span>
+</span>
+</article>
+</div>
+</div>
+</section>
+<!-- ========================================================================= -->
+<!-- LOCALIZAÇÃO & CONTATO RÁPIDO (Interactive Map Strip)                      -->
+<!-- ========================================================================= -->
+<section class="py-16 bg-surface border-t border-surface-variant" id="contato">
+<div class="max-w-7xl mx-auto px-6 md:px-12">
+<div class="bg-surface-container-lowest rounded-3xl p-8 md:p-12 border border-surface-variant grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+<div class="lg:col-span-5">
+<span class="text-label-sm font-label-sm text-secondary uppercase tracking-widest font-bold">Unidade Jardins</span>
+<h3 class="text-headline-md font-headline-md text-primary mt-2 mb-4">Visite nossa clínica em São Paulo</h3>
+<div class="space-y-3 text-body-md font-body-md text-on-surface-variant">
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-secondary mt-0.5" data-icon="location_on">location_on</span>
+<span>Alameda Gabriel Monteiro da Silva, 1420 - Jardins, São Paulo - SP</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary" data-icon="schedule">schedule</span>
+<span>Segunda a Sexta: 08:00 – 20:00 | Sábado: 08:00 – 14:00</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary" data-icon="local_parking">local_parking</span>
+<span>Estacionamento com manobrista gratuito no local</span>
+</div>
+</div>
+</div>
+<!-- Stylized Minimal Map Card with data-location -->
+<div class="lg:col-span-7 h-64 rounded-2xl overflow-hidden relative border border-surface-variant group">
+<img class="w-full h-full object-cover group-hover:scale-102 transition-transform duration-700" data-alt="Aerial architectural minimalist map view of Jardins neighborhood in São Paulo showing tranquil tree lined avenues and high-end clinics." data-location="São Paulo" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCZjo1XQvRl6Vr7jjStn_eusxwaBsHxtvZ2tFnRnEeY0w9zn7L-qM3T21iIgsxd7sqtY7xzaT2i9rLyhnMLi2WqgNP8LAoq5UrPCnPZkRQB23DEMaaVl5VEKWpXOYNZm278dNAjssQosfokMAOlVugFLn8QNkQnHXeMdOGuOMxUNpDZeP2CmUzy9WzqsFK5wL_FDOdPAKcm70gg037PV53NaKXsx-r96UP4x3DWaw0BYrWwjhNRfsQt"/>
+<div class="absolute inset-0 bg-primary/20 pointer-events-none"></div>
+<div class="absolute inset-0 flex items-center justify-center">
+<div class="bg-surface-container-lowest/95 backdrop-blur-md px-5 py-3 rounded-2xl shadow-xl flex items-center gap-3 border border-surface-variant">
+<div class="w-8 h-8 rounded-full bg-primary-container text-surface-container-lowest flex items-center justify-center">
+<span class="material-symbols-outlined text-sm" data-icon="dentistry">dentistry</span>
+</div>
+<div>
+<p class="text-label-lg font-label-lg text-primary font-bold">Dentora Odontologia</p>
+<p class="text-label-sm font-label-sm text-outline">Jardins, São Paulo</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- ========================================================================= -->
+<!-- 4.12 RODAPÉ ARQUITETURAL (Shared Component Anchor: Footer)                -->
+<!-- ========================================================================= -->
+<footer class="w-full bg-surface-container-low dark:bg-inverse-surface border-t border-surface-variant dark:border-outline-variant/30 text-on-surface-variant dark:text-surface-variant relative overflow-hidden">
+<!-- Giant Stylized Brand Watermark in Background -->
+<div class="absolute bottom-4 left-1/2 -translate-x-1/2 pointer-events-none select-none text-surface-variant/30 dark:text-inverse-on-surface/5 font-display font-extrabold text-[120px] md:text-[220px] tracking-tighter leading-none whitespace-nowrap">
+      DENTORA
+    </div>
+<div class="max-w-7xl mx-auto px-6 md:px-12 py-16 lg:py-24 relative z-10">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 mb-16">
+<!-- Brand & Mission Column -->
+<div class="lg:col-span-4">
+<div class="flex items-center gap-2 mb-6">
+<span class="w-8 h-8 rounded-xl bg-primary-container text-secondary-fixed flex items-center justify-center">
+<span class="material-symbols-outlined text-base" data-icon="dentistry">dentistry</span>
+</span>
+<span class="text-headline-md font-headline-md font-bold text-primary dark:text-inverse-on-surface tracking-tight">Dentora</span>
+</div>
+<p class="text-body-md font-body-md text-on-surface-variant dark:text-surface-variant leading-relaxed mb-6 max-w-sm">
+            Clínica odontológica de alta precisão dedicada à reabilitação estética e saúde bucal contínua com humanização e rigor científico.
+          </p>
+<div class="text-body-sm font-body-sm text-outline dark:text-outline-variant">
+            Responsável Técnico: Dr. Jonas Suherman • CRO-SP 104.892 • EPAO 9.871
+          </div>
+</div>
+<!-- Links: Empresa -->
+<div class="lg:col-span-2">
+<h4 class="text-label-lg font-label-lg text-primary dark:text-inverse-on-surface font-semibold mb-4">Empresa</h4>
+<ul class="space-y-2.5 text-body-sm font-body-sm">
+<li><a class="hover:text-secondary dark:hover:text-secondary-fixed transition-colors duration-200" href="#sobre-nos">Sobre nós</a></li>
+<li><a class="hover:text-secondary dark:hover:text-secondary-fixed transition-colors duration-200" href="#nossa-equipe">Nossa equipe</a></li>
+<li><a class="hover:text-secondary dark:hover:text-secondary-fixed transition-colors duration-200" href="#depoimentos">Depoimentos</a></li>
+<li><a class="hover:text-secondary dark:hover:text-secondary-fixed transition-colors duration-200" href="#inicio">Início</a></li>
+</ul>
+</div>
+<!-- Links: Tratamentos -->
+<div class="lg:col-span-3">
+<h4 class="text-label-lg font-label-lg text-primary dark:text-inverse-on-surface font-semibold mb-4">Tratamentos</h4>
+<ul class="space-y-2.5 text-body-sm font-body-sm">
+<li><a class="hover:text-secondary dark:hover:text-secondary-fixed transition-colors duration-200" href="#tratamentos">Limpeza e Prevenção</a></li>
+<li><a class="hover:text-secondary dark:hover:text-secondary-fixed transition-colors duration-200" href="#tratamentos">Clareamento Dental Avançado</a></li>
+<li><a class="hover:text-secondary dark:hover:text-secondary-fixed transition-colors duration-200" href="#tratamentos">Restaurações Estéticas</a></li>
+<li><a class="hover:text-secondary dark:hover:text-secondary-fixed transition-colors duration-200" href="#tratamentos">Implantes Dentários Guiados</a></li>
+<li><a class="hover:text-secondary dark:hover:text-secondary-fixed transition-colors duration-200" href="#tratamentos">Ortodontia com Alinhadores</a></li>
+</ul>
+</div>
+<!-- Contato & Localização -->
+<div class="lg:col-span-3">
+<h4 class="text-label-lg font-label-lg text-primary dark:text-inverse-on-surface font-semibold mb-4">Contato</h4>
+<p class="text-body-sm font-body-sm text-on-surface-variant dark:text-surface-variant mb-2">
+            Al. Gabriel Monteiro da Silva, 1420<br/>Jardins — São Paulo, SP
+          </p>
+<p class="text-body-sm font-body-sm text-primary dark:text-inverse-on-surface font-semibold mt-3">
+            (11) 3456-7890 • (11) 99999-9999
+          </p>
+<p class="text-body-sm font-body-sm text-outline dark:text-outline-variant mt-1">
+            contato@dentora.com.br
+          </p>
+</div>
+</div>
+<!-- Bottom Legal Strip -->
+<div class="pt-8 border-t border-surface-variant/40 dark:border-outline-variant/20 flex flex-col md:flex-row items-center justify-between gap-4 text-label-sm font-label-sm">
+<p class="text-on-surface-variant dark:text-surface-variant text-center md:text-left">
+          © 2024 Dentora Odontologia Integrada. Todos os direitos reservados. CRO-SP 104.892.
+        </p>
+<!-- Mandatory Exact Legal Links from JSON Anchor -->
+<div class="flex flex-wrap items-center justify-center gap-6">
+<a class="hover:text-secondary dark:hover:text-secondary-fixed transition-colors duration-200" href="#">Termos de Uso</a>
+<a class="hover:text-secondary dark:hover:text-secondary-fixed transition-colors duration-200" href="#">Política de Privacidade</a>
+<a class="hover:text-secondary dark:hover:text-secondary-fixed transition-colors duration-200" href="#">Responsabilidade Técnica</a>
+<a class="hover:text-secondary dark:hover:text-secondary-fixed transition-colors duration-200" href="#">Canal do Paciente</a>
+</div>
+</div>
+</div>
+</footer>
+<!-- Simple Vanilla JS for micro-interactions -->
+<script>
+    // Mobile navigation toggle
+    const toggleBtn = document.getElementById('mobile-menu-toggle');
+    const mobilePanel = document.getElementById('mobile-nav-panel');
+
+    if (toggleBtn && mobilePanel) {
+      toggleBtn.addEventListener('click', () => {
+        mobilePanel.classList.toggle('hidden');
+      });
+
+      // Close mobile nav on link click
+      mobilePanel.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+          mobilePanel.classList.add('hidden');
+        });
+      });
+    }
+
+    // Header subtle elevation scroll effect
+    const header = document.getElementById('top-nav');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 20) {
+        header.classList.add('shadow-md');
+      } else {
+        header.classList.remove('shadow-md');
+      }
+    });
+  </script>
+</body></html>
