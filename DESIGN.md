@@ -109,6 +109,12 @@ typography:
     fontWeight: '400'
     lineHeight: 20px
     letterSpacing: '0'
+  symbols:
+    fontFamily: 'Material Symbols Outlined'
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 1
+    letterSpacing: '0'
   label-lg:
     fontFamily: Manrope
     fontSize: 14px
