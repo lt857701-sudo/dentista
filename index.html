@@ -180,50 +180,48 @@
 <!-- ========================================================================= -->
 <!-- 4.2 HERO SECTION CINEMATOGRÁFICA                                         -->
 <!-- ========================================================================= -->
-<section class="relative pt-24 pb-16 md:pt-28 md:pb-24 overflow-hidden" id="inicio">
-  <div class="max-w-7xl mx-auto px-6 md:px-12 w-full">
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-0 lg:gap-0 items-center min-h-[90vh] lg:min-h-[720px]">
-      <!-- Hero Content: Mobile above / Desktop left -->
-      <div class="relative z-10 px-6 py-12 md:px-16 md:py-20 lg:pr-12 text-surface-container-lowest lg:text-left">
-        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 mb-6 lg:mb-8">
-          <span class="w-2 h-2 rounded-full bg-secondary-fixed"></span>
-          <span class="text-label-sm font-label-sm text-secondary-fixed tracking-widest uppercase">Odontologia Integrada &amp; Estética</span>
-        </div>
-        <h1 class="text-display-mobile md:text-display font-display font-bold tracking-tight text-surface-container-lowest leading-tight mb-6 text-4xl md:text-6xl lg:text-7xl">
-          Seu sorriso merece um cuidado extraordinário.
-        </h1>
-        <p class="text-body-md md:text-body-lg font-body-lg text-inverse-on-surface/90 font-light leading-relaxed mb-8 max-w-xl lg:max-w-none">
-          Tecnologia moderna, atendimento humanizado e tratamentos personalizados para você sorrir com confiança e serenidade em cada detalhe.
-        </p>
-        <div class="flex flex-wrap items-center gap-4 mb-12 lg:mb-16">
-          <a class="px-8 py-4 rounded-full bg-surface-container-lowest text-primary font-label-lg text-label-lg hover:bg-secondary-fixed transition-all duration-300 shadow-lg active:scale-95 flex items-center gap-2" href="#agendamento">
-            <span>Agendar consulta</span>
-            <span class="material-symbols-outlined text-primary text-base" data-icon="calendar_month">calendar_month</span>
-          </a>
-          <a class="px-8 py-4 rounded-full bg-white/15 backdrop-blur-md border border-white/30 text-surface-container-lowest font-label-lg text-label-lg hover:bg-white/25 transition-all duration-300 flex items-center gap-2" href="#tratamentos">
-            <span>Conheça nossos tratamentos</span>
-            <span class="material-symbols-outlined text-base" data-icon="north_east">north_east</span>
-          </a>
-        </div>
-        <div class="flex flex-wrap gap-2.5 lg:gap-4">
-          <span class="px-3.5 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-body-sm font-body-sm text-surface-container-lowest flex items-center gap-1.5">
-            <span class="material-symbols-outlined text-secondary-fixed text-sm" data-icon="view_in_ar">view_in_ar</span>
-            Tecnologia 3D Digital
-          </span>
-          <span class="px-3.5 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-body-sm font-body-sm text-surface-container-lowest flex items-center gap-1.5">
-            <span class="material-symbols-outlined text-secondary-fixed text-sm" data-icon="spa">spa</span>
-            Sedação Consciente &amp; Conforto
-          </span>
-          <span class="px-3.5 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-body-sm font-body-sm text-surface-container-lowest flex items-center gap-1.5">
-            <span class="material-symbols-outlined text-secondary-fixed text-sm" data-icon="sentiment_very_satisfied">sentiment_very_satisfied</span>
-            Atendimento Humanizado
-          </span>
-        </div>
-      </div>
+<section class="relative min-h-[90vh] lg:min-h-[80vh] overflow-hidden flex flex-col lg:flex-row" id="inicio" style="background-image: url('assets/images/hero.png'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+  <!-- Camada escura para legibilidade do texto sobre a foto -->
+  <div class="absolute inset-0 bg-primary/60 lg:bg-primary/40"></div>
+  <!-- Gradiente adicional nas bordas para enquadramento -->
+  <div class="absolute inset-0 bg-gradient-to-r from-primary/30 via-transparent to-transparent lg:from-primary/20 lg:via-transparent lg:to-transparent pointer-events-none"></div>
 
-      <!-- Hero Image: Mobile above / Desktop right (full side, no borders, no gradient) -->
-      <div class="lg:col-span-1 relative overflow-hidden">
-        <img alt="Atendimento clínico odontológico de precisão na Dentora" class="w-full h-full object-cover object-center lg:h-full" src="assets/images/hero.png"/>
+  <!-- Conteúdo sobreposto à imagem (esquerda em desktop, sobreposta no mobile) -->
+  <div class="relative z-10 max-w-7xl mx-auto px-6 md:px-12 w-full lg:max-w-none lg:mx-0 lg:px-12 flex flex-col lg:items-start justify-center lg:justify-between h-full min-h-[90vh] lg:min-h-[80vh]">
+    <div class="lg:w-1/2 lg:pr-12 mb-12 lg:mb-0">
+      <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 mb-6 lg:mb-8">
+        <span class="w-2 h-2 rounded-full bg-secondary-fixed"></span>
+        <span class="text-label-sm font-label-sm text-secondary-fixed tracking-widest uppercase">Odontologia Integrada &amp; Estética</span>
+      </div>
+      <h1 class="text-display-mobile md:text-display font-display font-bold tracking-tight text-surface-container-lowest leading-tight mb-6 text-4xl md:text-6xl lg:text-7xl">
+        Seu sorriso merece um cuidado extraordinário.
+      </h1>
+      <p class="text-body-md md:text-body-lg font-body-lg text-inverse-on-surface/90 font-light leading-relaxed mb-8 max-w-xl lg:max-w-none">
+        Tecnologia moderna, atendimento humanizado e tratamentos personalizados para você sorrir com confiança e serenidade em cada detalhe.
+      </p>
+      <div class="flex flex-wrap items-center gap-4 mb-12 lg:mb-16">
+        <a class="px-8 py-4 rounded-full bg-surface-container-lowest text-primary font-label-lg text-label-lg hover:bg-secondary-fixed transition-all duration-300 shadow-lg active:scale-95 flex items-center gap-2" href="#agendamento">
+          <span>Agendar consulta</span>
+          <span class="material-symbols-outlined text-primary text-base" data-icon="calendar_month">calendar_month</span>
+        </a>
+        <a class="px-8 py-4 rounded-full bg-white/15 backdrop-blur-md border border-white/30 text-surface-container-lowest font-label-lg text-label-lg hover:bg-white/25 transition-all duration-300 flex items-center gap-2" href="#tratamentos">
+          <span>Conheça nossos tratamentos</span>
+          <span class="material-symbols-outlined text-base" data-icon="north_east">north_east</span>
+        </a>
+      </div>
+      <div class="flex flex-wrap gap-2.5 lg:gap-4">
+        <span class="px-3.5 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-body-sm font-body-sm text-surface-container-lowest flex items-center gap-1.5">
+          <span class="material-symbols-outlined text-secondary-fixed text-sm" data-icon="view_in_ar">view_in_ar</span>
+          Tecnologia 3D Digital
+        </span>
+        <span class="px-3.5 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-body-sm font-body-sm text-surface-container-lowest flex items-center gap-1.5">
+          <span class="material-symbols-outlined text-secondary-fixed text-sm" data-icon="spa">spa</span>
+          Sedação Consciente &amp; Conforto
+        </span>
+        <span class="px-3.5 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-body-sm font-body-sm text-surface-container-lowest flex items-center gap-1.5">
+          <span class="material-symbols-outlined text-secondary-fixed text-sm" data-icon="sentiment_very_satisfied">sentiment_very_satisfied</span>
+          Atendimento Humanizado
+        </span>
       </div>
     </div>
   </div>
