@@ -5,6 +5,8 @@
     { "src": "index.html", "use": "@vercel/static" }
   ],
   "routes": [
+    { "src": "/assets/(.*)", "headers": { "cache-control": "s-maxage=31536000, immutable" }, "dest": "/assets/$1" },
+    { "src": "/(.*\\.(html|css|js|png|jpg|jpeg|svg|ico|json))", "dest": "/$1" },
     { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
