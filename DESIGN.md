@@ -1,5 +1,5 @@
 ---
-name: Dentora Clinical Studio
+name: Dentista Clinical Studio
 colors:
   surface: '#f4fbfb'
   surface-dim: '#d4dbdc'

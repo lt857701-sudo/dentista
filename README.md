@@ -1,4 +1,4 @@
-# Dentora | Odontologia Integrada & Estética Avançada
+# Dentista | Odontologia Integrada & Estética Avançada
 
 Site estático de uma página para clínica odontológica, desenvolvido com HTML + Tailwind CSS (via CDN).
 
